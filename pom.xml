@@ -78,6 +78,12 @@
 
   <dependencyManagement>
     <dependencies>
+      <!-- https://mvnrepository.com/artifact/org.eclipse.core/commands -->
+      <dependency>
+        <groupId>org.eclipse.core</groupId>
+        <artifactId>commands</artifactId>
+        <version>3.3.0-I20070605-0010</version>
+      </dependency>
       <dependency>
         <groupId>org.pentaho</groupId>
         <artifactId>commons-xul-core</artifactId>
@@ -295,7 +301,7 @@
     <repository>
       <id>pentaho-public</id>
       <name>Pentaho Public</name>
-      <url>http://nexus.pentaho.org/content/groups/omni/</url>
+        <url>http://nexus.pentaho.org/content/groups/omni/</url>
       <releases>
         <enabled>true</enabled>
         <updatePolicy>daily</updatePolicy>
